@@ -47,8 +47,8 @@ class GraphcastModel(Model):
     # Download
     download_files = [
         (
-            "params/GraphCast_small - ERA5 1979-2015 - resolution 1.0 -"
-            " pressure levels 13 - mesh 2to5 - precipitation input and output.npz"
+            "params/GraphCast_operational - ERA5-HRES 1979-2021 - resolution 0.25 -"
+            " pressure levels 13 - mesh 2to6 - precipitation output only.npz"
         ),
         "stats/diffs_stddev_by_level.nc",
         "stats/mean_by_level.nc",
