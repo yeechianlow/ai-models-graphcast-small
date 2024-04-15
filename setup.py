@@ -51,7 +51,7 @@ setuptools.setup(
     keywords="tool",
     entry_points={
         "ai_models.model": [
-            "graphcast = ai_models_graphcast.model:model",
+            "graphcast_operational = ai_models_graphcast.model:model",
         ]
     },
     classifiers=[
