@@ -56,7 +56,7 @@ class GraphcastModel(Model):
 
     # Input
     area = [90, 0, -90, 360]
-    grid = [0.25, 0.25]
+    grid = [1.0, 1.0]
 
     param_sfc = [
         "lsm",
