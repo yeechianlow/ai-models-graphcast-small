@@ -56,7 +56,7 @@ def forcing_variables_numpy(sample, forcing_variables, dates):
     return (
         ds.order_by(param=forcing_variables, valid_datetime="ascending")
         .to_numpy(dtype=np.float32)
-        .reshape(len(forcing_variables), len(dates), 721, 1440)
+        .reshape(len(forcing_variables), len(dates), 181, 360)
     )
 
 
